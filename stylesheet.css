@@ -19,13 +19,15 @@ body {
     float: right;
     position: fixed;
     right: 10px;
+    padding: 20px;
 }
 
 .navigation a {
     text-align: center;
     color: white;
     padding: 16px;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -36,17 +38,27 @@ body {
 
 .logo {
     width: 20%;
+    padding: 10px;
     float: left;
 }
 
-.guy {
-    width: 29.67%;
+.socialmedia {
     float: left;
+    position: absolute;
+    margin-left: -410px;
+    margin-top: 180px;
+    padding: 10px;
+}
+
+.guy {
+    width: 29.66%;
+    float: left;
+    position: absolute;
 }
 
 .video {
     height: 30%;
-    margin-left: 200px;
+    margin-left: 700px;
     margin-top: 300px;
 }
 
@@ -67,6 +79,25 @@ body {
 
 .logoplaatje {
     width: 20%;
+    padding-left: 10px;
+}
+
+.p1Accessoires  {
+    background-color: white;
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    margin-right: 100px;
+    margin-left: 190px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p1Accessoires text {
+margin-left: 3px;
+margin-right: 3px;
 }
 
 h4 {
@@ -183,8 +214,8 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     padding-top: 70px;
-    padding-right: 20px;
-    text-align: right;
+    padding-left: 20px;
+    text-align: left;
 }
 
 h3 {
